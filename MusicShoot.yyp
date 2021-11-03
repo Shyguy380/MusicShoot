@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sor_background","path":"sprites/sor_background/sor_background.yy",},"order":18,},
     {"id":{"name":"spr_lives_2","path":"sprites/spr_lives_2/spr_lives_2.yy",},"order":5,},
     {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},"order":9,},
     {"id":{"name":"snd_destroy","path":"sounds/snd_destroy/snd_destroy.yy",},"order":1,},
