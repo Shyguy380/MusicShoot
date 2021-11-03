@@ -7,8 +7,7 @@ switch(room)
         break;
 		
 	case rm_game:
-	    draw_text(45, 20, "Lives: " + string(lives));
-		draw_text(690, 20, "Incoming enemies: " + string(num_enemies));
+		draw_text(110, 10, "Incoming enemies: " + string(num_enemies));
 		var c = c_red;
 		draw_text_transformed_colour( room_width - 80, 10, "Score: " + string(player_score), 1, 1, 0, c, c, c, c, 1);
 
