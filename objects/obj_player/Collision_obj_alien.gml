@@ -10,5 +10,8 @@ with(other){
 
 with(obj_game)
 {
-  	instance_destroy( array_pop(player_life_list), false );
+	if( array_length_1d( player_life_list ) > 0 )
+	{
+  		instance_destroy( array_pop(player_life_list), false );
+	}
 }
