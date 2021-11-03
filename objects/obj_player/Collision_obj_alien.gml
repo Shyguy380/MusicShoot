@@ -7,3 +7,8 @@ with(other){
 		instance_create_layer(x, y, "Instances", obj_debris);
 	}
 }
+
+with(obj_game)
+{
+  	instance_destroy( array_pop(player_life_list), false );
+}
