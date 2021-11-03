@@ -23,10 +23,10 @@ if (room == rm_game)
 
 else if (room == rm_lose && keyboard_check(vk_enter))
 {
-    room_goto(rm_game);	
+	game_restart();
 }
 
 else if (room == rm_win && keyboard_check(vk_enter))
 {
-    room_goto(rm_game);	
+  game_restart();
 }

@@ -1,3 +1,4 @@
+
 x = clamp(x, 30, room_width - 30);
 
 
