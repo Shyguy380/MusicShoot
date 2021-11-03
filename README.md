@@ -14,6 +14,6 @@ the top right reaches 0. Good luck!
 None.
 
 ##	Credits
-*	Calvin Harper:	
-*	Trevor Johnson:	
-*	Logan O'Donell: 
+*	Calvin Harper: Created all sounds and music, health system, life and alien sprites, room sprites and sequence.
+*	Trevor Johnson:	Created player sprite, score system, rooms, and enemy spawning.
+*	Logan O'Donell: Created background sprite, alien, bullet, debris, game, play, and rail objects, and logic for gameplay.
