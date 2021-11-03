@@ -1,4 +1,5 @@
 canShoot = true;
+x = clamp(x, 30, room_width - 30);
 
 if(keyboard_check(vk_left)){
 	x-= 4;

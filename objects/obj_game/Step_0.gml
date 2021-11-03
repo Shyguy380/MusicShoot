@@ -15,7 +15,7 @@ if (room == rm_game)
 	    room_goto(rm_lose);	
 	}
 	
-	else if (instance_number(obj_alien) == 0)
+	else if (instance_number(obj_alien) == 0 && num_enemies == 0)
 	{
 	    room_goto(rm_win);
 	}

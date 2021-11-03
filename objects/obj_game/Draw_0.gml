@@ -7,6 +7,7 @@ switch(room)
 		
 	case rm_game:
 	    draw_text(45, 20, "Lives: " + string(lives));
+		draw_text(690, 20, "Incoming enemies: " + string(num_enemies));
 	    break;
 
 
@@ -18,6 +19,11 @@ switch(room)
 LEFT/RIGHT ARROWS: move left/right
 SPACEBAR: shoot
 
+Shoot down all of the invading aliens!
+Don't let any aliens get past the cannon,
+as doing so will cost you lives. More aliens
+will spawn as you play until the number in
+the top right reaches 0. Good luck!
 
 >>PRESS ENTER TO START<<");
 	    draw_set_halign(fa_center);	
