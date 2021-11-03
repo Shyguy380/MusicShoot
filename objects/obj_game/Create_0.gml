@@ -1,5 +1,5 @@
 lives = 5;
-num_enemies = 30;
+num_enemies = 40;
 
 if (room == rm_game)
 {
