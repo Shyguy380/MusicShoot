@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.4,
+  "volume": 0.06,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_shoot.mp3",
-  "duration": 1.5005,
+  "soundFile": "snd_shoot.wav",
+  "duration": 0.557279,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

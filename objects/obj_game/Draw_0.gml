@@ -1,3 +1,4 @@
+
 switch(room)
 {
 	case rm_start:
@@ -8,6 +9,11 @@ switch(room)
 	case rm_game:
 	    draw_text(45, 20, "Lives: " + string(lives));
 		draw_text(690, 20, "Incoming enemies: " + string(num_enemies));
+		var c = c_red;
+		draw_text_transformed_colour( room_width - 80, 10, "Score: " + string(player_score), 1, 1, 0, c, c, c, c, 1);
+
+		draw_set_halign(fa_center);
+		
 	    break;
 
 
@@ -38,4 +44,9 @@ the top right reaches 0. Good luck!
         var c = c_red;
     	draw_text_transformed_colour(400, 600, "Press Enter to Restart", 2, 2, 0, c, c, c, c, 1);
         break;
+
+
+
+
 }
+

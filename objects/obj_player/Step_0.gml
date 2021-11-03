@@ -1,5 +1,8 @@
+
 canShoot = true;
 x = clamp(x, 30, room_width - 30);
+
+
 
 if(keyboard_check(vk_left)){
 	x-= 4;
@@ -14,8 +17,11 @@ if(canShoot){
 	if(keyboard_check_pressed(vk_space)){
 		image_speed = 2;
 		canShoot = false;
-		alarm[0] = room_speed * 1.5;
-		var inst = instance_create_layer(x - 1, y, "Instances", obj_bullet);
+
+		
+		alarm[0] = room_speed * shoot_speed;
+		var inst = instance_create_layer(x, y, "Instances", obj_bullet);
+
 		inst.direction = 90;
 		audio_play_sound(snd_shoot, 10, false);
 	}
