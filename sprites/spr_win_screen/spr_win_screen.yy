@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6a71c271-e3cd-4e7d-b877-6c9f47ed9b22","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a71c271-e3cd-4e7d-b877-6c9f47ed9b22","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"LayerId":{"name":"cc0c107d-1f66-4c99-b204-e314bd89b2fc","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_titleScreen","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"resourceVersion":"1.0","name":"6a71c271-e3cd-4e7d-b877-6c9f47ed9b22","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2b47c381-b60b-4f3c-8bf5-c35bd00e484a","path":"sprites/spr_win_screen/spr_win_screen.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2b47c381-b60b-4f3c-8bf5-c35bd00e484a","path":"sprites/spr_win_screen/spr_win_screen.yy",},"LayerId":{"name":"65622292-a852-49a4-9293-2ab88ffe2177","path":"sprites/spr_win_screen/spr_win_screen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_win_screen","path":"sprites/spr_win_screen/spr_win_screen.yy",},"resourceVersion":"1.0","name":"2b47c381-b60b-4f3c-8bf5-c35bd00e484a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_titleScreen","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},
+    "spriteId": {"name":"spr_win_screen","path":"sprites/spr_win_screen/spr_win_screen.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"063bedcc-e837-4847-87d2-d9f351637c95","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a71c271-e3cd-4e7d-b877-6c9f47ed9b22","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9c14d818-62f3-49f3-9803-a57cd0f046b4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2b47c381-b60b-4f3c-8bf5-c35bd00e484a","path":"sprites/spr_win_screen/spr_win_screen.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_titleScreen","path":"sprites/spr_titleScreen/spr_titleScreen.yy",},
+    "parent": {"name":"spr_win_screen","path":"sprites/spr_win_screen/spr_win_screen.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_titleScreen",
+    "name": "spr_win_screen",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cc0c107d-1f66-4c99-b204-e314bd89b2fc","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"65622292-a852-49a4-9293-2ab88ffe2177","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_titleScreen",
+  "name": "spr_win_screen",
   "tags": [],
   "resourceType": "GMSprite",
 }
